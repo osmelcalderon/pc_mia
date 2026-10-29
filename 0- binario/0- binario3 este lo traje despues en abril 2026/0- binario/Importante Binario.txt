@@ -1,0 +1,96 @@
+https://www.fpo.xxx/video/378659/0-7-10x-mama-quiere-sentirse-mujer-otra-vez-sub-espanol/
+https://es.xhamster.com/videos/horny-stepmom-asks-me-for-a-massage-and-something-unexpected-happens-spanish-porn-xheCekT#
+https://www.fpo.xxx/video/707552/0-danilisboa-hazme-sentir-joven-otra-vez/
+
+https://maestra.ai/es/herramientas/video-a-texto/transcribir-video-de-youtube 
+
+
+/////////////////////////////////Aqui estoy y voy por el capitulo 109/////////////////////////////////////
+Profe Alex
+	https://www.youtube.com/watch?v=F1xB6oxmMWQ&list=PLeySRPnY35dGpDpTnEM86nJAEKVP8LD6v
+Operaciones Binaria(Suma, resta, multiplicacion, division) 
+	https://www.youtube.com/watch?v=IRDokGq9YwQ&list=PL46-B5QR6sHk5Nck_jVP0oJLK79sl-NhI&index=6
+Todo binario apartir del 11
+	https://www.youtube.com/watch?v=TTpCRffVyJc&list=PL46-B5QR6sHntg3995-PvwyzUGZu4epRU&index=11 
+Complemento a1
+	https://www.youtube.com/watch?v=HPfxlGAkKyg&list=TLPQMTgwNjIwMjXKbxwzyM7uyw&index=2
+	https://www.youtube.com/watch?v=k55_IeUmAAo&pp=ygUiY29tcGxlbWVudG8gYSAyIGVqZXJjaWNpb3MgbWFyaXNvbA%3D%3D 
+Complemento a2
+	https://www.youtube.com/watch?v=K-IJTvEDBYw&pp=ygUiY29tcGxlbWVudG8gYSAyIGVqZXJjaWNpb3MgbWFyaXNvbA%3D%3D
+	https://www.youtube.com/watch?v=umCFglE_eFU&pp=ygUiY29tcGxlbWVudG8gYSAyIGVqZXJjaWNpb3MgbWFyaXNvbA%3D%3D 
+
+
+
+/////////////////////////////////////
+https://www.geeksforgeeks.org/competitive-programming/bit-tricks-competitive-programming/
+https://www.geeksforgeeks.org/competitive-programming/bit-manipulation-for-competitive-programming/?utm_source=chatgpt.com
+
+
+https://www.youtube.com/watch?v=ykowfOF3gWw&list=PLXp1_EguVeAQlfo3lFcDjd1UmT0eL8Jpv
+https://www.youtube.com/watch?v=jHSCkgjBV-4&list=PLT_Lu3WtHN8oR5Bo8V6eALKIFSsmukQa4
+https://www.youtube.com/watch?v=ASr9_46pBCM&list=PLgZBv5xjlhvGqg7T8rx00A0KPSu84Vq1t
+//////////////////////////////
+
+Problemas de trabajo. Pagina para trabajar
+https://www.techiedelight.com/?problem=TwoSum
+https://www.techiedelight.com/bit-hacks-part-1-basic/?fbclid=IwAR39rmIP1O5_GPgHBkOA8oleO3XFOKsU3bYwiZ39gpGksdQKzD1NdS53Arg 
+
+**https://graphics.stanford.edu/~seander/bithacks.html
+
+parte 1  Trucos de bits – Parte 1 (Básico)
+	Comprueba si un número entero es par o impar.
+	Detectar si dos números enteros tienen signos opuestos o no.
+	Sumar 1 a un número entero.
+	Intercambia dos números sin utilizar ninguna tercera variable.
+   https://www.techiedelight.com/bit-hacks-part-1-basic/?fbclid=IwAR39rmIP1O5_GPgHBkOA8oleO3XFOKsU3bYwiZ39gpGksdQKzD1NdS53Arg
+
+parte 2  Trucos de bits – Parte 2 (Jugando con el bit k)
+	Desactiva el bit k en un número.
+	Activa el bit k en un número.
+	Comprueba si el bit k está configurado para un número.
+	Alternar el bit k.
+   https://www.techiedelight.com/bit-hacks-part-2-playing-kth-bit/
+
+parte 3 Trucos de bits – Parte 3 (Jugando con el bit más a la derecha de un número)
+        En esta publicación se analizarán algunos problemas relacionados con la desactivación del bit establecido más a la derecha de un número.
+	Problema 1. Compruebe si un entero positivo es una potencia de 2 sin utilizar ninguna ramificación o bucle.
+	Problema 2. Encuentra la posición del bit establecido más a la derecha
+	Problema 3. Encuentra la posición del único bit establecido en un número
+	Problema 4. Cálculo de la paridad de un número
+
+
+  https://www.techiedelight.com/bit-hacks-part-3-playing-rightmost-set-bit-number/
+
+parte 4 Trucos de bits – Parte 4 (Jugando con las letras del alfabeto inglés)
+	Convertir caracteres en mayúsculas a minúsculas.
+	Convertir caracteres en minúscula a mayúscula.
+	Invertir mayúsculas y minúsculas del alfabeto.
+	Encuentra la posición de una letra en el alfabeto.
+  https://www.techiedelight.com/bit-hacks-part-4-playing-letters-english-alphabet/
+
+parte 5 Trucos de bits – Parte 5 (Encontrar el valor absoluto de un entero sin ramificaciones)
+	Dado un número entero, calcule su valor absoluto (abs) sin ramificar.
+	Usando expresión(n+mask)^mask
+https://www.techiedelight.com/bit-hacks-part-5-find-absolute-value-integer-without-branching/
+
+
+
+
+Problemas sencillos sobre manipulaciones de bits y algoritmos bit a bit
+   https://cp-algorithms.com/algebra/bit-manipulation.html
+
+Algoritmos bit a bit
+      https://www.geeksforgeeks.org/dsa/bitwise-algorithms/
+      
+
+Comprobar el desbordamiento de enteros
+   https://www.similaranswer.es/como-se-puede-producir-el-desbordamiento/#que-causa-el-desbordamiento-aritmetico 
+
+
+
+
+https://www.geeksforgeeks.org/find-two-non-repeating-elements-in-an-array-of-repeating-elements/?ref=lbp 
+
+
+Estructura de datos tipo abstractos 
+https://www.geeksforgeeks.org/learn-data-structures-and-algorithms-dsa-tutorial/?utm_campaign=DSA%20Page%20Tracker&utm_content=Course%20Page&utm_id=DSA-Page-Tracker&utm_medium=Landing%20Page%20Click&utm_source=Website&utm_term=DSA%20Page%20Promo 

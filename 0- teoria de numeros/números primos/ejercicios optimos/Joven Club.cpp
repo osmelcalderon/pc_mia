@@ -1,0 +1,179 @@
+/*
+linkyless
+--Copyright DMOJ
+// New Template
+*/
+
+#define linky main
+
+#pragma GCC optimize("Ofast")
+
+#include <stdio.h>
+//#include <map>
+#include <algorithm>
+#include <set>
+//#include <unordered_set>
+#include <queue>
+#include <vector>
+//#include <string>
+//#include <string.h>
+//#include <stack>
+//#include <utility>
+//#include <bitset>
+//#include <cstring>
+//#include <iostream>
+//#include <utility>
+//#include <math.h>
+//#include <cstdlib>
+//#include <bitset>
+//#include <numeric>
+//#include <functional>
+//#include <bits/stdc++.h>
+
+using namespace std;
+
+//\\ DEBUGGING \\//
+
+/*template <typename T>
+void printcoll (T const& coll){
+    typename T::const_iterator pos;
+    typename T::const_iterator fin(coll.fin());
+
+    for ( pos = coll.begin(); pos!=fin; ++pos ) {
+        std::cout << *pos << ' ';
+    }
+    std::cout << std::finl;
+}
+
+*/
+
+//\\ SGTREE \\//
+
+//#define left l, m, node * 2
+//#define right m + 1, r, node * 2 + 1
+
+//\\ PRINCIPAL \\//
+
+#define ll long long
+#define ull unsigned long long
+#define ios ios_base::sync_with_stdio(0), cin.tie(0), cout.tie(0)
+
+//\\ RAPIDEZ DE CODIGO \\//
+
+#define rep(i, n) for (i = 0; i < n; i++)
+#define repzero(i, n) for (i = 0; i <= n; i++)
+#define repone(i, n) for (i = 1; i < n; i++)
+#define repi(i, n) for (i = 1; i <= n; i++)
+#define reptwo(i, n) for (i = 2; i <= n; i++)
+#define REP(i, k, n) for (i = k; i <= n; i++)
+#define REPL(i, k, n) for (i = k; i < n; i++)
+#define REPR(i, k, n) for (i = k; i >= n; i--)
+#define REPSUM(i, k, n, j) for (i = k; i <= n; i += j)
+#define REPBIT(j, bit, i, k) for (j = 0; j * (1 << bit) <= i; j += k)
+
+//\\ STL \\//
+
+/*define vi vector<int, int>2
+1 10
+100 200
+#define mapa map<int, int>
+*/
+
+#define pll pair<int, int>
+// typedef vector<pair<int,int>> vec_pr;
+
+#define pb push_back
+#define F second
+#define S first
+#define pb push_back
+#define all(x) (x).begin(), (x).end()
+#define lb lower_bound
+#define ordenar(x) sort(x.begin(), x.end())
+#define ordenarA(x) sort(x, x + n)
+#define med (left + right) / 2
+#define mmsone(x, d) memset(x, d, sizeof(x))
+
+//\\ OPERACIONES RAPIDAS \\//
+
+#define sf(n) scanf("%d", &n)
+#define sff(n, m) scanf("%d%d", &n, &m)
+#define sfff(n, m, k) scanf("%d%d%d", &n, &m, &k)
+#define sffff(n, m, k, x) scanf("%d%d%d%d", &n, &m, &k, &x)
+#define sfl(n) scanf("%I64d", &n)
+#define sffl(n, m) scanf("%I64d%I64d", &n, &m)
+
+#define pf(n) printf("%d\n", n)
+#define pfl(n) printf("%I64d ", n)
+#define pfs(s) printf("%s\n", s)
+
+const int MOD = 998244353;
+const int MAX = 1e5 + 3;
+const int MAXINT = 1e8;
+
+//\\ COORDENADAS TÍPICAS \\//
+
+// int dx[8] = {0,1,1,1,0,-1,-1,-1};
+// int dy[8] = {1,1,0,-1,-1,-1,0,1};
+
+vector<array<int,2>>s[2];
+
+int linky(){
+
+	int h, w, n, x, y, xf, yf, a, b, i;
+
+    sfff(h, w, n);
+	sffff(x, y, xf, yf);
+    repi(i, n){
+		sff(a, b);
+		s[0].push_back({a, b});
+	}
+
+    sort(s[0].begin(), s[0].end());
+    s[1] = s[0];
+    sort(s[1].begin(), s[1].end(),[](const auto &a, const auto &b){return a[1] < b[1] ||(a[1] == b[1] && a[0] < b[0]);});
+	//lambda
+
+    queue<pair<int,array<int,2>> > q;
+    q.push({0, {x, y}});
+
+    set<array<int,2>> jovenclub = {{x, y}};
+
+    while(!q.empty()){
+        auto a = q.front();
+        q.pop();
+        a.first++;
+        rep(i, 2){
+            auto it = (i == 0 ? lower_bound(all(s[0]), a.second):
+
+			lower_bound(s[1].begin(),s[1].end(),a.second,
+			[](const auto &xx, const auto &yy){return xx[1] < yy[1]||(xx[1] == yy[1]&&xx[0] < yy[0]);}));
+			//lamda
+
+            if(it != s[i].end() &&(*it)[i] == a.second[i] &&(*it)[1 - i] > a.second[1 - i] + 1){
+                auto b = a;
+                b.second[1 - i] = (*it)[1 - i] - 1;
+                if(b.second[0] == xf && b.second[1] == yf) {
+					pf(b.first);
+					return 0;
+				}
+
+                if(jovenclub.insert(b.second).second) 
+					q.push(b);
+            }
+
+            if(it != s[i].begin() &&(*(--it))[i] == a.second[i] && (*it)[1 - i] < a.second[1 - i]-1){
+                auto b = a;
+                b.second[1 - i] = (*it)[1 - i] + 1;
+                if(b.second[0] == xf && b.second[1] == yf){
+					pf(b.first);
+					return 0;
+				}
+
+                if(jovenclub.insert(b.second).second)
+					q.push(b);
+            }
+        }
+    }
+    pf(-1);
+	return 0;
+}
